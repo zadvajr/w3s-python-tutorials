@@ -1,0 +1,4 @@
+This is a text file that will be read by word_cout.py python code it will read
+ the file name and loop through this text file to count each word word wordand return 
+ the highest word or word that appeared more than any other word. the the the the the the
+ 
