@@ -49,3 +49,17 @@ print(text[2:5]) #output: llo
 #by leaving out the start index, the range will start at the first character
 text = "Hello, World!"
 print(text[:5]) #output: Hello
+
+#slice to the end
+#by leaving out the end index, the range will go to the end
+text = "Hello, World!"
+print(text[2:]) #output: llo, World!
+
+#negative indexing
+#use negative indexing to start the slice from the end of the string
+text = "Hello, World!"
+print(text[-5:-2]) #output: orl
+
+#reverse a string with slicing
+text = "Hello, World!"
+print(text[::-1]) #output: !dlroW ,olleH
