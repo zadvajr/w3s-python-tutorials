@@ -28,3 +28,24 @@ for x in name:
 #to get the length of a string, use the len() function
 text = "this is a string text"
 print(len(text)) #output: 21
+
+#check string
+#to check if a certain phrase or character is present in a string, use the in keyword
+text = "The rain in Spain stays mainly in the plain"
+print("rain" in text) #output: True
+
+#check if not
+#to check if a certain phrase or character is not present in a string, use the not in keyword
+text = "The rain in Spain stays mainly in the plain"
+print("rain" not in text) #output: False
+
+#slicing
+#you can return a range of characters by using the slice syntax
+#specify the start index and the end index, separated by a colon, to return a part of the string
+text = "Hello, World!"
+print(text[2:5]) #output: llo
+
+#slice from the start
+#by leaving out the start index, the range will start at the first character
+text = "Hello, World!"
+print(text[:5]) #output: Hello
