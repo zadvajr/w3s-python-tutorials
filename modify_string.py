@@ -18,3 +18,9 @@ print(name.replace("zadva", "zadva, jnr")) #output: daniel zadva, jnr
 #split string
 name = "daniel zadva jnr"
 print(name.split(" ")) #output: ['daniel', 'zadva', 'jnr']
+
+#string concatenation
+first_name = "daniel"
+last_name = "zadva"
+full_name = first_name + " " + last_name
+print(full_name) #output: daniel zadva
