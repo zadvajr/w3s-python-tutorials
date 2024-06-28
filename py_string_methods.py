@@ -35,7 +35,6 @@ x = txt.expandtabs(2)
 print(x) # Output: H e l l o
 
 # 8. find() - Searches the string for a specified value and returns the position of where it was found
-
 txt = "Hello, welcome to my world."
 x = txt.find("welcome")
 print(x) # Output: 7
