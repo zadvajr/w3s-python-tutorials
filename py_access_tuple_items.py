@@ -25,3 +25,16 @@ print(thistuple[2:5]) #Output: ('cherry', 'orange', 'kiwi')
 #Note: The search will start at index 2 (included) and end at index 5 (not included).
 
 #Range of Negative Indexes
+#Specify negative indexes if you want to start the search from the end of the tuple:
+#Example
+#This example returns the items from index -4 (included) to index -1 (excluded)
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-4:-1]) #Output: ('orange', 'kiwi', 'melon')
+
+#Check if Item Exists
+#To determine if a specified item is present in a tuple use the in keyword:
+#Example
+#Check if "apple" is present in the tuple:
+thistuple = ("apple", "banana", "cherry")
+if "apple" in thistuple:
+    print("Yes, 'apple' is in the fruits tuple") #Output: Yes, 'apple' is in the fruits tuple
